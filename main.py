@@ -10,7 +10,7 @@ encrypted_message = ''
 for char in message:
     # Check if the character is a letter
     if char.lower() in letters:
-        # Find the index of the character in the letters list
+        # Find the index of the character in the  letters list
         original_index = letters.index(char.lower())
         # Calculate the new index with the shift, wrapping around using modulo 26
         new_index = (original_index + shift) % 26
