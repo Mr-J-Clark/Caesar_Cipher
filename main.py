@@ -1,4 +1,4 @@
-# Create a list of lowercase letters
+# Create a list of lowercase letters 
 letters = 'abcdefghijklmnopqrstuvwxyz'
 
 # Get user input for the message and shift number
